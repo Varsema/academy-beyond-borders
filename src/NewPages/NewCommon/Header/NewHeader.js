@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { useEffect, useState } from "react";
 import i18n from "../../../i18n/i18n";
 import NewLanguage from "./NewLanguage/Language";
-import iconMenu from "../../Images/iconMenu.png";
+import iconMenu from "../../NewImages/iconMenu.png";
 import { siteTranslateAction } from "../../../store/translate";
 import MetaTags from "../../../MetaTags";
 import coverEn from './../../../assetss/images/meta_en.jpg'

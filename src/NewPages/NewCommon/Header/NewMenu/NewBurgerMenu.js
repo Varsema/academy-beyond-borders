@@ -4,7 +4,7 @@ import styles from "./NewBurgerMenu.module.scss";
 import { useTranslation } from "react-i18next";
 import { useDispatch, useSelector } from "react-redux";
 import { siteTranslateAction } from "../../../../store/translate";
-import icon from "../../../Images/arrowIcon.png";
+import icon from "../../../NewImages/arrowIcon.png";
 import engFlag from "../../../../assetss/images/brtsh.jpg";
 import geoFlag from "../../../../assetss/images/geo.jpg";
 
