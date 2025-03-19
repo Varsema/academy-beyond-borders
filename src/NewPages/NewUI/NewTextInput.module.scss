@@ -1,0 +1,45 @@
+
+.textlabel {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border: 1px solid #0D6693;
+    border-radius: 6px;
+    background-color: #fff;
+    overflow: hidden;
+    margin-bottom: 20px;
+
+    &__icon {
+      margin-left: 13px;
+    }
+
+    &__input {
+      width: 100%;
+      border: none;
+      outline: none; 
+      font-size: 1rem;
+      padding: 9px;
+    }
+    
+    &__textarea {
+        background-color: #F5F5F5;
+    }
+}
+
+  
+  .textInput__textarea {
+    min-height: 100px; /* საკმარისი სივრცე მრავალსტრიქონიანი ტექსტისთვის */
+    padding: 8px; /* ტექსტისთვის სივრცის დასამატებლად */
+    resize: vertical; /* სურვილისამებრ: ვერტიკალური ზომის შეცვლის ნებართვა */
+  }
+
+  .textarea {
+    width: 100%;
+    min-height: 120px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+    background-color:#F5F5F5;;
+  }
